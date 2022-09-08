@@ -10,7 +10,7 @@ I was messing around with `socket`'s and wanted to make something with it becaus
     * Again, in this case only on your own computer, but still works as a "private" server anyways
 
 ## TODO
-[ ] Add "Best of" gamemode
-[ ] Add "Rock Paper Scissors Lizard Spock" gamemode
-[ ] Add "Time limits" rule
-[ ] Add Custom Items
+- [ ] Add "Best of" gamemode
+- [ ] Add "Rock Paper Scissors Lizard Spock" gamemode
+- [ ] Add "Time limits" rule
+- [ ] Add Custom Items
