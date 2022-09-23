@@ -9,8 +9,15 @@ I was messing around with `socket`'s and wanted to make something with it becaus
 * Allows private servers to be setup
     * Again, in this case only on your own computer, but still works as a "private" server anyways
 
+## Problems
+So one main problem I wanted to highlight is that since this is just a simple project, I really don't feel like doing *too* much on error handling. Yes, I'll implement some basic error handling and what not but I really don't wanna plan for every single contingincy ever and make it perfect. That would take me too much time and give me headaches so yeah. And also frankly, I don't wanna worry about the [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem "Two Generals' Problem(Networking) - Wikipedia) at all right now. Maybe in the future...
+
 ## TODO
 - [ ] Add "Best of" gamemode
 - [ ] Add "Rock Paper Scissors Lizard Spock" gamemode
+- [ ] Add "1-Match, 3-People" gamemode
+- [ ] Add "4-Person Tournament" gamemode
+- [ ] Add RPS-101 gamemode (Realistically, I won't add this unless I get *to* bored. No one is gonna play a 101 battle royale. I don't even know 75 people.)
+- [ ] Add Specialised Servers and Server Browser (Alpha servers are normal, Bravo Servers are "Best of", etc.)
 - [ ] Add "Time limits" rule
 - [ ] Add Custom Items

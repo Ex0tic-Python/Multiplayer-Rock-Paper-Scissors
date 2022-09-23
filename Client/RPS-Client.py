@@ -1,8 +1,9 @@
 from os import system  # Lets us clear the terminal
-from sockets import socket  # Allows us to use servers
-from json import dump  # Let's us turn json data into dicts
+from socket import socket  # Allows us to use servers
+from json import loads, dumps  # Let's us turn json data into dicts
 from random import choice  # Allows the offline AI to choose a play
 from colorama import init, deinit, Fore  # Adds some life to the terminal with colors
+
 
 def offline_play():
     while True:
@@ -11,23 +12,24 @@ def offline_play():
         print(f"{Fore.GREEN}What would you like to play?")
         print(f"{Fore.YELLOW}>Rock\n>Paper\n>Scissors\n")
         player_play = input(f"{Fore.YELLOW}>>> ").lower()
+        system("cls")
         if player_play == ai_play:
-            print(f"{Fore.WHITE}---\n{Fore.GREEN}{player_play.capitalize()} ties {ai_play.capitalize()}. Tied!{Fore.WHITE}\n---")
+            print(f"{Fore.GREEN}{player_play.capitalize()} ties {ai_play.capitalize()}. Tied!")
         elif player_play == "rock":
             if ai_play == "scissors":
-                print(f"{Fore.WHITE}---\n{Fore.CYAN}Rock smashes Scissors. You win!{Fore.WHITE}\n---")
+                print(f"{Fore.CYAN}Rock smashes Scissors. You win!")
             else:
-                print(f"{Fore.WHITE}---\n{Fore.RED}Paper covers Rock. You lose.{Fore.WHITE}\n---")
+                print(f"{Fore.RED}Paper covers Rock. You lose.")
         elif player_play == "paper":
             if ai_play == "rock":
-                print(f"{Fore.WHITE}---\n{Fore.CYAN}Paper covers Rock. You win!{Fore.WHITE}\n---")
+                print(f"{Fore.CYAN}Paper covers Rock. You win!")
             else:
-                print(f"{Fore.WHITE}---\n{Fore.RED}Scissors cuts Paper. You lose.{Fore.WHITE}\n---")
+                print(f"{Fore.RED}Scissors cuts Paper. You lose.")
         elif player_play == "scissors":
             if ai_play == "paper":
-                print(f"{Fore.WHITE}---\n{Fore.CYAN}Scissors cuts Paper. You win!{Fore.WHITE}\n---")
+                print(f"{Fore.CYAN}Scissors cuts Paper. You win!")
             else:
-                print(f"{Fore.WHITE}---\n{Fore.RED}Rock smashes Scissors. You lose.{Fore.WHITE}\n---")
+                print(f"{Fore.RED}Rock smashes Scissors. You lose.")
         else:
             continue
         while True:
@@ -52,9 +54,10 @@ def private_join():
     pass
   
   
-def main_menu(game_version):
+def main_menu():
+    game_version = "0.5"
     while True:
-        print(f"{Fore.GREEN}Rock Paper Scissors (v{game_version})")
+        print(f"{Fore.GREEN}Rock Paper Scissors v{game_version}")
         print(f"{Fore.YELLOW}Play Offline\nPlay Online\nJoin Room\nExit\n")
         choice = input(f"{Fore.YELLOW}>>> ").lower()
         if choice == "play offline":
@@ -76,6 +79,13 @@ def main_menu(game_version):
 if __name__ == "__main__":
     system("cls")
     init(autoreset=True)
-    main_menu("0.5")
+    main_menu()
     print(f"{Fore.RED}Thank you for playing!\nExiting...")
     deinit()
+
+"""
+Debating adding supporting scripts to the client to make the code much cleaner
+I usually would but this is intended to be as clean as possible for users with little coding knowledge
+Realistically, you would have to setup python, run the requirements file, etc.
+The whole "little coding knowledge" thing is already out the window
+"""

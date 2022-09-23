@@ -1,0 +1,38 @@
+{
+    "1": {
+        "Online": false,
+        "Server Name": "Alpha-1",
+        "Address": ["127.0.0.1", 26681],
+        "Game Mode": "Normal"
+    },
+    "2": {
+        "Online": false,
+        "Server Name": "Alpha-2",
+        "Address": ["127.0.0.1", 44225],
+        "Game Mode": "Normal"
+    },
+    "3": {
+        "Online": false,
+        "Server Name": "Bravo-1",
+        "Address": ["127.0.0.1", 24843],
+        "Game Mode": "RPSLS"
+    },
+    "4": {
+        "Online": false,
+        "Server Name": "Bravo-2",
+        "Address": ["127.0.0.1", 23313],
+        "Game Mode": "RPSLS"
+    },
+    "5": {
+        "Online": false,
+        "Server Name": "Charlie-1",
+        "Address": ["127.0.0.1", 19085],
+        "Game Mode": "Best of 4"
+    },
+    "6": {
+        "Online": false,
+        "Server Name": "Charlie-2",
+        "Address": ["127.0.0.1", 16839],
+        "Game Mode": "Best of 4"
+    }
+}

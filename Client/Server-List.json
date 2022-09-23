@@ -1,5 +1,26 @@
-[
-    ["127.0.0.1.", 26681],
-    ["127.0.0.1.", 44225],
-    ["127.0.0.1.", 24843]
-]
+{
+    "Alpha-1": {
+        "Address": ["127.0.0.1", 26681],
+        "Game Mode": "Normal"
+    },
+    "Alpha-2": {
+        "Address": ["127.0.0.1", 44225],
+        "Game Mode": "Normal"
+    },
+    "Bravo-1": {
+        "Address": ["127.0.0.1", 24843],
+        "Game Mode": "RPSLS"
+    },
+    "Bravo-2": {
+        "Address": ["127.0.0.1", 23313],
+        "Game Mode": "RPSLS"
+    },
+    "Charlie-1": {
+        "Address": ["127.0.0.1", 19085],
+        "Game Mode": "Best of 4"
+    },
+    "Charlie-2": {
+        "Address": ["127.0.0.1", 16839],
+        "Game Mode": "Best of 4"
+    }
+}
