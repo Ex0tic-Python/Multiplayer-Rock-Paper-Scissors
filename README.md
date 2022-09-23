@@ -10,7 +10,7 @@ I was messing around with `socket`'s and wanted to make something with it becaus
     * Again, in this case only on your own computer, but still works as a "private" server anyways
 
 ## Problems
-So one main problem I wanted to highlight is that since this is just a simple project, I really don't feel like doing *too* much on error handling. Yes, I'll implement some basic error handling and what not but I really don't wanna plan for every single contingincy ever and make it perfect. That would take me too much time and give me headaches so yeah. And also frankly, I don't wanna worry about the [Two Generals' Problem](https://en.wikipedia.org/wiki/Two_Generals%27_Problem "Two Generals' Problem(Networking) - Wikipedia) at all right now. Maybe in the future...
+So one main problem I wanted to highlight is that since this is just a simple project, I really don't feel like doing *too* much on error handling. Yes, I'll implement some basic error handling and what not but I really don't wanna plan for every single contingincy ever and make it perfect. That would take me too much time and give me headaches so yeah. Maybe in the future...
 
 ## TODO
 - [ ] Add "Best of" gamemode
