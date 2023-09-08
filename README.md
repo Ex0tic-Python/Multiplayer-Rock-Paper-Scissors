@@ -16,4 +16,6 @@ So one main problem I wanted to highlight is that since this is just a simple pr
 - [ ] Add "Best of" gamemode
 - [ ] Add "4-Person Tournament" gamemode
 - [ ] Implement a queue system for servers (Since servers have different game modes, the queue system should also choose which server to queue for. Whichever has less people in line will be the chosen server)
+- [ ] Add settings so they user can change features (example: supress command line colors)
 - [ ] Add a GUI (Should still allow users to play in either GUI or Command-Line mode)
+- [ ] Recreate game in Rust (Would be cool to make it in a compiled language)
